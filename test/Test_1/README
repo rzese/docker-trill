@@ -1,0 +1,30 @@
+Test 1
+
+This tests considers KBs, modeling real world domains.
+Datasets:
+- BioPAX level 3 (http://www.biopax.org/), which models metabolic pathways;
+– BRCA (http://www2.cs.man.ac.uk/~klinovp/pronto/brc/cancer_cc.owl), which models the
+  risk factors of breast cancer depending on many factors such as age and drugs taken;
+– an extract of DBPedia ontology (http://dbpedia.org/), containing structured
+  information of Wikipedia, usually those contained in the information box on
+  the right-hand side of a page;
+– Vicodi [1], which contains information on European history and models historical
+  events and important personalities.
+
+
+50 queries per KB per type of test.
+
+Tests for:
+- qo: queries with no justifications
+- q1: queries with one or more justifications finding only 1 justification
+- qa: queries with one or more justifications finding all the justifications
+- qp: probabilistic queries
+
+Use runall.sh to run all the tests. Otherwise, in the folder run_scripts you can run single tests.
+Each test collects the average running time. However, with the script get_all_times.sh it is
+possible to collect all the results at the same moment.
+
+
+[1] G. Nagypál, R. Deswarte and J. Oosthoek.
+Applying the Semantic Web: The VICODI Experience in Creating Visual Contextualization for History
+Literary and Linguistic Computing 20(3) (2005), 327–349. doi:10.1093/llc/fqi037.

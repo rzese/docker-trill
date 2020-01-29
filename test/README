@@ -1,0 +1,11 @@
+This folder contains KBs and scripts to run the 5 tests presented in the paper
+Zese R., and Cota G., Optimizing Tableau Reasoning: a Prolog-based Framework.
+
+In each test folder there is a README with the description of the test and the instructions to run it.
+
+The script SET_VERSION.sh is used to switch among the two versions considered in the paper.
+It takes one argument telling which version to use.
+To use the new version, run:
+SET_VERSION.sh new
+To use the old version, run:
+SET_VERSION.sh old

@@ -1,0 +1,2877 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="rc-20-20#"
+     xml:base="rc-20-20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="rc-20-20"/>
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- rc-20-20#cm0n0 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n0">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n1"/>
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n1"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm0n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm0n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm0n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm1n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm1n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm1n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm2n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm2n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm2n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm3n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm3n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm3n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm4n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm4n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm4n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm5n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm5n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm5n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm6n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm6n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm6n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm7n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm7n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm7n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm8n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm8n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm8n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm9n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm9n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm9n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm10n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm10n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm10n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm11n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm11n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm11n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm12n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm12n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm12n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm13n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm13n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm13n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm14n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm14n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm14n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm15n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm15n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm15n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm16n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm16n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm16n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm17n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm17n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm17n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm18n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm18n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm18n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n1 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n1">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n2"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n2 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n2">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n3"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n3 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n3">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n4"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n4 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n4">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n5"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n5 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n5">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n6"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n6 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n6">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n7"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n7 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n7">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n8"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n8 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n8">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n9"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n9 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n9">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n10"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n10 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n10">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n11"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n11 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n11">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n12"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n12 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n12">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n13"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n13 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n13">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n14"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n14 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n14">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n15"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n15 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n15">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n16"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n16 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n16">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n17"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n17 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n17">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n18"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n18 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n18">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n19"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n19 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n19">
+        <rdfs:subClassOf rdf:resource="rc-20-20#cm19n20"/>
+    </owl:Class>
+
+
+    <!-- rc-20-20#cm19n20 -->
+
+    <owl:Class rdf:about="rc-20-20#cm19n20">
+        <rdfs:subClassOf rdf:resource="rc-20-20#c21"/>
+    </owl:Class>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sites.google.com/a/unife.it/ml/disponte#a -->
+
+    <owl:NamedIndividual rdf:about="rc-20-20#a">
+        <rdf:type rdf:resource="rc-20-20#cm0n0"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->

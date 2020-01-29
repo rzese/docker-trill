@@ -1,0 +1,20 @@
+Test 5
+
+This test considers versions of BRCA of increasing size generated following the method presented in [1].
+
+There are KBs of increasing size created by starting from the original (probabilistic) TBox and added
+a number of (probabilistic) sub-class axioms varying from 9 to 26. For each number, 100 different consistent
+ontologies were created.
+
+Two queries for each KB of each size are executed.
+
+Use runall.sh to run all the tests. Otherwise, in the folder run_scripts you can run this test using
+one particular reasoner. Each test collects the average running time. However, with the script
+get_all_times.sh it is possible to collect all the results at the same moment.
+
+
+[1] P. Klinov and B. Parsia.
+Optimization and Evaluation of Reasoning in Probabilistic Description Logic: Towards a Systematic Approach
+The Semantic Web - ISWC 2008, 7th International Semantic Web Conference, ISWC 2008
+Lecture Notes in Computer Science, Vol. 5318, Springer, 2008, pp. 213–228.
+

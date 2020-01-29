@@ -1,0 +1,43 @@
+Axiom: 4706
+Logical axiom count: 2360
+Declaration axioms count: 2346
+Class count: 2626
+Object property count: 2
+Data property count: 0
+Individual count: 0
+Annotation Property count: 0
+SubClassOf: 2360
+EquivalentClasses: 0
+DisjointClasses: 0
+GCI count: 0
+Hidden GCI Count: 0
+SubObjectPropertyOf: 0
+EquivalentObjectProperties: 0
+InverseObjectProperties: 0
+DisjointObjectProperties: 0
+FunctionalObjectProperty: 0
+InverseFunctionalObjectProperty: 0
+TransitiveObjectProperty: 0
+SymmetricObjectProperty: 0
+AsymmetricObjectProperty: 0
+ReflexiveObjectProperty: 0
+IrrefexiveObjectProperty: 0
+ObjectPropertyDomain: 0
+ObjectPropertyRange: 0
+SubPropertyChainOf: 0
+SubDataPropertyOf: 0
+EquivalentDataProperties: 0
+DisjointDataProperties: 0
+FunctionalDataProperty: 0
+DataPropertyDomain: 0
+DataPropertyRange: 0
+ClassAssertion: 0
+ObjectPropertyAssertion: 0
+DataPropertyAssertion: 0
+NegativeObjectPropertyAssertion: 0
+NegativeDataPropertyAssertion: 0
+SameIndividual: 0
+DifferentIndividuals: 0
+AnnotationAssertion: 0
+AnnotationPropertyDomain: 0
+AnnotationPropertyRangeOf: 0

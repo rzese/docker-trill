@@ -1,0 +1,30 @@
+Test 2
+
+This test consider the Foundational Model of Anatomy Ontology (FMA, http://si.washington.edu/projects/fma).
+
+Datasets:
+FMA of increasing size. The base KB has:
+Axiom: 4706
+Class count: 2626
+
+The considered KBs differ in the number of individuals they contain.
+              N. of added   N. of added
+   Name       individuals     axioms
+fma_10_2.pl       10           82
+fma_20_2.pl       20           124
+fma_30_2.pl       30           189
+fma_40_2.pl       40           261
+fma_50_2.pl       50           314
+fma_60_2.pl       60           376
+fma_70_2.pl       70           418
+fma_80_2.pl       80           514
+fma_90_2.pl       90           538
+fma_100_2.pl      100          648
+fma_200_2.pl      200          1302
+fma_300_2.pl      300          1944
+
+10 queries per KB.
+
+Use runall.sh to run all the tests. Otherwise, in the folder run_scripts you can run this test using
+one particular reasoner. Each test collects the average running time. However, with the script
+get_all_times.sh it is possible to collect all the results at the same moment.

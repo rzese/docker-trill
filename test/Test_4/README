@@ -1,0 +1,22 @@
+Test 4
+
+This test considers the artificial KB shown in the following:
+
+B_{i−1} \sqsubseteq P_{i} \cup Q_{i}
+P_{i} \sqsubseteq B_{i}
+Q_{i} \sqsubseteq B_{i}
+
+with i taking values from 1 to n. With positive n, the query B_{0} \sqsubseteq B_{n} has 2^n justifications.
+This Kb is taken from Example 8 in [1].
+
+In this test, i takes values 2, 4, 6, 8, 10.
+
+Use runall.sh to run all the tests and compute the average running time over 50 executions of the query
+for each KB.
+However, with the script get_all_times.sh it is possible to collect all the results at the same moment.
+
+
+[1] Fabrizio Riguzzi, Elena Bellodi, Evelina Lamma, and Riccardo Zese.
+Probabilistic description logics under the distribution semantics.
+Semantic Web - Interoperability, Usability, Applicability, 6(5):447--501, 2015. 
+http://ml.unife.it/wp-content/uploads/Papers/RigBelLamZes-SW14.pdf

@@ -1,0 +1,16 @@
+subClassOf(cm0n0,cm0n1).
+subClassOf(cm0n1,cm0n2).
+subClassOf(cm0n2,cm0n3).
+subClassOf(cm0n3,cm0n4).
+subClassOf(cm0n4,c5).
+subClassOf(cm0n0,cm1n1).
+subClassOf(cm1n1,cm1n2).
+subClassOf(cm1n2,cm1n3).
+subClassOf(cm1n3,cm1n4).
+subClassOf(cm1n4,c5).
+subClassOf(cm0n0,cm2n1).
+subClassOf(cm2n1,cm2n2).
+subClassOf(cm2n2,cm2n3).
+subClassOf(cm2n3,cm2n4).
+subClassOf(cm2n4,c5).
+classAssertion(cm0n0,a).
