@@ -1,7 +1,9 @@
 # docker-trill
 This repository contains the commands to create a docker image with TRILL reasoner. 
 
-The resulting container can be dowloaded by simply running the command
+Use the command `make build` to build the container. Once done, use `make run` to run it in iterative mode.
+
+The resulting container can be also dowloaded from Docker Hub by simply running the command
 `docker pull rzese/trill`
 
 The container that will be downloaded or built will contain the reasoner TRILL and SWI-Prolog already installed.
