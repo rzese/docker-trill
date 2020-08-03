@@ -6,11 +6,11 @@ cd $FOLDER
 
 if [ $1 == "new" ];
 then
-    git checkout trill-beta-version
+    git checkout tags/6.0.1
 else
     if [ $1 == "old" ];
     then
-        git checkout master
+        git checkout tags/5.2.2
     else
         echo "Unknown parameter. Please, use values: old, new"
         echo

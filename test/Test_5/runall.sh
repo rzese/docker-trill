@@ -1,6 +1,10 @@
 #!/bin/bash
 
-./dataset/clean.sh
+cd dataset
+
+./clean.sh
+
+cd ..
 
 cd run_scripts
 

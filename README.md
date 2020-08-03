@@ -17,7 +17,7 @@ The script SET_VERSION.sh is used to switch among the two versions considered in
 It takes one argument telling which version to use.
 
 To use the new version, run:
- `SET_VERSION.sh new`
+`SET_VERSION.sh new`
 
 To use the old version, run:
 `SET_VERSION.sh old`

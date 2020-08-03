@@ -5,6 +5,7 @@ do
 	for J in 1 2 3 4 5 6 7
 	do
 		cd rc$I-$J
+		[ ! -d res ] && mkdir res
 		rm res/res_*
 		rm res/err_*
 		cd ..
@@ -37,6 +38,7 @@ do
 	for J in 10 20 30 40 50 60 70 80 90 100
 	do
 		cd rc$I-$J
+		[ ! -d res ] && mkdir res
 		rm res/res_*
 		rm res/err_*
 		cd ..
