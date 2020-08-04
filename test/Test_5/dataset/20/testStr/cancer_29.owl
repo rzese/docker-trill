@@ -2525,4 +2525,4 @@
     </owl:Axiom>
 
 
-</rdf:RDF>
+<rdf:Description rdf:about="#Ind1"><rdfs:label>Ind1</rdfs:label><rdf:type><owl:Class rdf:about="#Woman"/></rdf:type><rdf:type><owl:Class rdf:about="#WomanTakingEstrogen"/></rdf:type><rdf:type><owl:Class rdf:about="#PostmenopausalWoman"/></rdf:type></rdf:Description><rdf:Description rdf:about="#Ind2"><rdfs:label>Ind2</rdfs:label><rdf:type><owl:Class rdf:about="#Woman"/></rdf:type><rdf:type><owl:Class rdf:about="#WomanTakingEstrogen"/></rdf:type><rdf:type><owl:Class rdf:about="#PostmenopausalWoman"/></rdf:type></rdf:Description><rdf:Description rdf:about="#Ind3"><rdfs:label>Ind3</rdfs:label><rdf:type><owl:Class rdf:about="#Woman"/></rdf:type><rdf:type><owl:Class rdf:about="#WomanTakingEstrogen"/></rdf:type><rdf:type><owl:Class rdf:about="#PostmenopausalWoman"/></rdf:type></rdf:Description></rdf:RDF>
