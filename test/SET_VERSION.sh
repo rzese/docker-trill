@@ -6,7 +6,7 @@ cd $FOLDER
 
 if [ $1 == "new" ];
 then
-    git checkout tags/6.0.1
+    git checkout tags/6.0.2
 else
     if [ $1 == "old" ];
     then
