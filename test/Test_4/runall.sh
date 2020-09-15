@@ -1,15 +1,11 @@
 #!/bin/bash
 
+[ ! -d res] && mkdir res
 
-for J in 2 4 6 8 10
-do
-  
-       cd rc$J
-       echo "rc$J - trill"
-       ./testtrill.sh
-       cd ..
+cd run_scripts
 
-done
+./test-trill.sh
+./test-trillp.sh
+./test-tornado.sh
 
-./get_all_times.sh
-
+cd ..

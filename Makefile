@@ -7,7 +7,7 @@ help:
 	@echo "push		Push the image on Docker Hub"
 
 image::
-	docker build -t rzese/trill:1.0.4 .
+	docker build -t rzese/trill:1.0.6 .
 
 run:
 	docker run -it trill

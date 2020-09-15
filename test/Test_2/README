@@ -1,30 +1,23 @@
-Test 2
+Test 3
 
-This test consider the Foundational Model of Anatomy Ontology (FMA, http://si.washington.edu/projects/fma).
+This test considers the artificial KB shown in the following:
 
-Datasets:
-FMA of increasing size. The base KB has:
-Axiom: 4706
-Class count: 2626
+C_{1,1} \subseteq C_{1,2} \subseteq ...} \subseteq C_{1,x} \subseteq C_{x+1}
+C_{1,1} \subseteq C_{2,2} \subseteq ...} \subseteq C_{2,x} \subseteq C_{x+1}
+C_{1,1} \subseteq C_{3,2} \subseteq ...} \subseteq C_{3,x} \subseteq C_{x+1}
+...
+C_{1,1} \subseteq C_{y,2} \subseteq ...} \subseteq C_{y,x} \subseteq C_{x+1}
+a : C_{1,1}
 
-The considered KBs differ in the number of individuals they contain.
-              N. of added   N. of added
-   Name       individuals     axioms
-fma_10_2.pl       10           82
-fma_20_2.pl       20           124
-fma_30_2.pl       30           189
-fma_40_2.pl       40           261
-fma_50_2.pl       50           314
-fma_60_2.pl       60           376
-fma_70_2.pl       70           418
-fma_80_2.pl       80           514
-fma_90_2.pl       90           538
-fma_100_2.pl      100          648
-fma_200_2.pl      200          1302
-fma_300_2.pl      300          1944
+with m and n varying to increase the number of axioms.
 
-10 queries per KB.
+This thes considers x and y taking values from 1 to 7, step 1 and from 10 to 100, step 10
+for a total of 149 KBs, each one in its folder.
 
-Use runall.sh to run all the tests. Otherwise, in the folder run_scripts you can run this test using
-one particular reasoner. Each test collects the average running time. However, with the script
-get_all_times.sh it is possible to collect all the results at the same moment.
+The query executed is:
+a : C_{x+1}
+
+Use runall.sh to run all the tests. Use run_1-7.sh to run test with x and y taking values only from 1 to 7,
+or use run_10-100.sh for using KBs with x and y between 10 and 100.
+Each test collects the average running time over 50 executions of the query for each KB. However, with
+the script get_all_times.sh it is possible to collect all the results at the same moment.

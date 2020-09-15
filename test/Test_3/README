@@ -1,23 +1,22 @@
-Test 3
+Test 4
 
 This test considers the artificial KB shown in the following:
 
-C_{1,1} \subseteq C_{1,2} \subseteq ...} \subseteq C_{1,x} \subseteq C_{x+1}
-C_{1,1} \subseteq C_{2,2} \subseteq ...} \subseteq C_{2,x} \subseteq C_{x+1}
-C_{1,1} \subseteq C_{3,2} \subseteq ...} \subseteq C_{3,x} \subseteq C_{x+1}
-...
-C_{1,1} \subseteq C_{y,2} \subseteq ...} \subseteq C_{y,x} \subseteq C_{x+1}
-a : C_{1,1}
+B_{i−1} \sqsubseteq P_{i} \cup Q_{i}
+P_{i} \sqsubseteq B_{i}
+Q_{i} \sqsubseteq B_{i}
 
-with m and n varying to increase the number of axioms.
+with i taking values from 1 to n. With positive n, the query B_{0} \sqsubseteq B_{n} has 2^n justifications.
+This Kb is taken from Example 8 in [1].
 
-This thes considers x and y taking values from 1 to 7, step 1 and from 10 to 100, step 10
-for a total of 149 KBs, each one in its folder.
+In this test, i takes values 2, 4, 6, 8, 10.
 
-The query executed is:
-a : C_{x+1}
+Use runall.sh to run all the tests and compute the average running time over 50 executions of the query
+for each KB.
+However, with the script get_all_times.sh it is possible to collect all the results at the same moment.
 
-Use runall.sh to run all the tests. Use run_1-7.sh to run test with x and y taking values only from 1 to 7,
-or use run_10-100.sh for using KBs with x and y between 10 and 100.
-Each test collects the average running time over 50 executions of the query for each KB. However, with
-the script get_all_times.sh it is possible to collect all the results at the same moment.
+
+[1] Fabrizio Riguzzi, Elena Bellodi, Evelina Lamma, and Riccardo Zese.
+Probabilistic description logics under the distribution semantics.
+Semantic Web - Interoperability, Usability, Applicability, 6(5):447--501, 2015. 
+http://ml.unife.it/wp-content/uploads/Papers/RigBelLamZes-SW14.pdf
