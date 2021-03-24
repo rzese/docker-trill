@@ -10,7 +10,7 @@ image::
 	docker build -t rzese/trill:1.0.6 .
 
 run:
-	docker run -it trill
+	docker run -it rzese/trill:1.0.6
 
 push:
 	docker login && docker push rzese/trill
