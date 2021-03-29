@@ -1,20 +1,14 @@
-Test 5
+This Test is borrowed by [1].
 
-This test considers versions of BRCA of increasing size generated following the method presented in [1].
+[1] Y. Kazakov, P. Skocovský, Enumerating justifications using resolution
+In: D. Galmiche, S. Schulz, R. Sebastiani (Eds.), Automated Reasoning - 9th International Joint Conference, IJCAR 2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford, UK, July 14-17, 2018, Proceedings, Vol. 10900 of Lecture Notes in Computer Science, Springer, 2018, pp. 609–626.
+doi:10.1007/978-3-319-94205-6\_40.
+URL https://doi.org/10.1007/978-3-319-94205-6_40
 
-There are KBs of increasing size created by starting from the original (probabilistic) TBox and added
-a number of (probabilistic) sub-class axioms varying from 9 to 26. For each number, 100 different consistent
-ontologies were created.
+Thi directory contains two ontologies: Galen 7 and GO-Plus. They were slightly adapted by the authors of [1], so that they could be processed by all the their tools.
 
-Two queries for each KB of each size are executed.
+galen7
+Version 7 of OpenGALEN with non-EL expressions removed and property equivalence axioms translated to pairs of sub-property axioms.
 
-Use runall.sh to run all the tests. Otherwise, in the folder run_scripts you can run this test using
-one particular reasoner. Each test collects the average running time. However, with the script
-get_all_times.sh it is possible to collect all the results at the same moment.
-
-
-[1] P. Klinov and B. Parsia.
-Optimization and Evaluation of Reasoning in Probabilistic Description Logic: Towards a Systematic Approach
-The Semantic Web - ISWC 2008, 7th International Semantic Web Conference, ISWC 2008
-Lecture Notes in Computer Science, Vol. 5318, Springer, 2008, pp. 213–228.
-
+go-plus
+Extended version of a Gene Ontology obtained from http://purl.obolibrary.org/obo/go/extensions/go-plus.owl with removed inferred axioms (anotated <http://www.geneontology.org/formats/oboInOwl#is_inferred>) and removed the following types of expressions: InverseObjectProperties, ObjectInverseOf, DisjointClasses, DisjointUnion, ObjectUnionOf

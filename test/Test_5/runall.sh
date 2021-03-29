@@ -1,15 +1,10 @@
 #!/bin/bash
 
-cd dataset
+rm galen7_trill_res.txt
+rm go-plus_trill_res.txt
 
-./clean.sh
+echo "Galen7"
+echo "['galen7_trill_queries.pl'],run_test,halt." | swipl galen7_trill.pl
 
-cd ..
-
-cd run_scripts
-
-./test-trill.sh
-./test-trillp.sh
-./test-tornado.sh
-
-cd ..
+echo "GO-Plus"
+echo "['go-plus_trill_queries.pl'],run_test,halt." | swipl go-plus_trill.pl
