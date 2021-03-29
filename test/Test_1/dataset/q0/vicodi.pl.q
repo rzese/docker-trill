@@ -10,11 +10,11 @@ S is cputime,prob_instanceOf('http://vicodi.org/ontology#Prince','http://vicodi.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person','http://vicodi.org/ontology#%C3%81rp%C3%A1d-of-Hungary-is-Prince-in-Hungary-between-896-907',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Prince','http://vicodi.org/ontology#%C3%89douard-Valliant',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person','http://vicodi.org/ontology#1st-Battle-of-Poitiers',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
-S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person,'http://vicodi.org/ontology#20-year-building-programme-for-German-high-seas-fleet',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
-S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person,'http://vicodi.org/ontology#1st-Abdication-of-Napoleon',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
+S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person','http://vicodi.org/ontology#20-year-building-programme-for-German-high-seas-fleet',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
+S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person','http://vicodi.org/ontology#1st-Abdication-of-Napoleon',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Creator','http://vicodi.org/ontology#20-year-building-programme-for-German-high-seas-fleet',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Creator','http://vicodi.org/ontology#%C3%81rp%C3%A1d-Szakasits',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
-S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person,'http://vicodi.org/ontology#1st-Battle-of-St-Albans',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
+S is cputime,prob_instanceOf('http://vicodi.org/ontology#Person','http://vicodi.org/ontology#1st-Battle-of-St-Albans',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Battle','http://vicodi.org/ontology#%C3%81rp%C3%A1d-Szakasits',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Event','http://vicodi.org/ontology#%C3%89douard-Drumont',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_instanceOf('http://vicodi.org/ontology#Event','http://vicodi.org/ontology#%C3%81rp%C3%A1d-Goncz',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.

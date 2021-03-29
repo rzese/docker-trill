@@ -2,7 +2,7 @@ S is cputime,prob_sub_class('PersonUnderRisk','Age',Expl),E is cputime, Time is 
 S is cputime,prob_sub_class('WeakDecrease','Age5060',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_sub_class('MotherAffectedBeforeAge60','NoChildren',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_sub_class('Age6070','ModerateIncrease',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
-S is cputime,prob_sub_class('Woman','BreastCancer',,Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
+S is cputime,prob_sub_class('Woman','BreastCancer',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_sub_class('Estrogen','Woman',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_sub_class('NoChildren','Estrogen',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
 S is cputime,prob_sub_class('ModerateDecrease','Age5060',Expl),E is cputime, Time is E - S,write('Time = '),writeln(Time),halt.
