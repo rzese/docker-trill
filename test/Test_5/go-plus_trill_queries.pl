@@ -1,3 +1,5 @@
+:- module(gp_test,[run_test/1]).
+
 run_test:-
     open('go-plus_trill_res.txt', write, S),
     foreach(q(C1,C2),test_q(C1,C2,S)),
@@ -7,16 +9,16 @@ test_q(C1,C2,S):-
     format("~a ~a~n", [C1, C2]),
     I is cputime,
     get_time(I2),
-    sub_class(C1,C2,E,[time_limit(60)]),
-    F is cputime,
-    get_time(F2),
-    %length(E,N),
-    N=1,
-    T is F-I,
-    T2 is F2-I2,
-    format(S,"~a ~a | ~f ~f ~D~n", [C1, C2, T, T2, N]),
+    (sub_class(C1,C2,_E,[max_expl(all),time_limit(60)])->
+        (F is cputime,
+         get_time(F2),
+         T is F-I,
+         T2 is F2-I2,
+         format(S,"~a ~a | ~f ~f~n", [C1, C2, T, T2])
+        );
+        (format(S,"Error!~n",[]))
+    ),
     flush_output(S).
-
 
 q(aGO_0044260,aGO_0043170).
 q(aGO_0033329,aGO_0016137).
@@ -90461,3 +90463,6 @@ q(aGO_0051986,aGO_0010948).
 q(aGO_0006798,aGO_0044712).
 q(aGO_0071299,aGO_0071396).
 q(aCHEBI_18005,aCHEBI_35179).
+
+
+:-consult('go-plus_trill.pl').
