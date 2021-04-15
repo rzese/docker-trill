@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ ! -d res] && mkdir res
+[ ! -d res ] && mkdir res
 
 cd run_scripts
 
