@@ -1,3 +1,9 @@
+
+:-use_module(library(trill)).
+
+:-trill.
+
+
 subClassOf(cm0n0,cm0n1).
 subClassOf(cm0n1,cm0n2).
 subClassOf(cm0n2,cm0n3).

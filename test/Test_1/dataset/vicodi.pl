@@ -1,4 +1,6 @@
+:-use_module(library(trill)).
 
+:-trill.
 
 owl_rdf('<?xml version="1.0"?>
 

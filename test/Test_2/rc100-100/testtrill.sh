@@ -7,12 +7,6 @@ cat  rc100-100.pl >> temp.pl
 echo "S is cputime,findall(Expl,instanceOf(c101,a,Expl),Expls),E is cputime, Time is E - S." | swipl temp.pl >> res/res_trill.txt
 
 
-echo ":-use_module(library(trill))." > temp.pl
-echo ":-trillp." >> temp.pl
-cat  rc100-100.pl >> temp.pl
-#trillp 
-echo "S is cputime,instanceOf(c101,a,Expls),E is cputime, Time is E - S." | swipl temp.pl >> res/res_trillp.txt
-
 
 echo ":-use_module(library(trill))." > temp.pl
 echo ":-tornado." >> temp.pl

@@ -6,12 +6,12 @@ help:
 	@echo "run              Run the image"
 	@echo "push		Push the image on Docker Hub"
 
-image::
-	docker build -t rzese/trill:1.0.7 .
+image:
+	docker build -t rzese/trill:1.0.9 .
 
 run:
-	docker run -it rzese/trill:1.0.7
+	docker run -it rzese/trill:1.0.9
 
 push:
-	docker login && docker push rzese/trill
+	docker login && docker push rzese/trill:1.0.9
 
