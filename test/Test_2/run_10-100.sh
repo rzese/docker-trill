@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for I in 100
+for I in 10 20 30 40 50 60 70 80 90 100
 do
 	for J in 10 20 30 40 50 60 70 80 90 100
 	do
@@ -14,9 +14,9 @@ done
 
 > status.log
 > error.log
-for X in $(seq 4)
+for X in $(seq 10)
 do
-	for I in 100
+	for I in 10 20 30 40 50 60 70 80 90 100
 	do
 		for J in 10 20 30 40 50 60 70 80 90 100
 		do

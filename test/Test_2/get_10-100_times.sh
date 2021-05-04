@@ -3,7 +3,7 @@
 >res_trill.txt
 >res_trillp.txt
 >res_tornado.txt
-for I in 100
+for I in 10 20 30 40 50 60 70 80 90 100
 do
 	for J in 10 20 30 40 50 60 70 80 90 100
 	do
