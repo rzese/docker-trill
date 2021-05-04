@@ -7,11 +7,11 @@ help:
 	@echo "push		Push the image on Docker Hub"
 
 image:
-	docker build -t rzese/trill:1.0.10 .
+	docker build -t rzese/trill .
 
 run:
-	docker run -it rzese/trill:1.0.10
+	docker run -it rzese/trill
 
 push:
-	docker login && docker push rzese/trill:1.0.10
+	docker login && docker push rzese/trill
 
