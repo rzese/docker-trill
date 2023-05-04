@@ -24,33 +24,7 @@ do
 		echo "$p"  | swipl $TYPE"tempbr.pl" 1>> res/$TYPE/$f"_time.txt" 2> /dev/null
 	done < $1/$f.pl.q
 	
-	echo "trillp"
-	echo "trillp" >> res/$TYPE/$f"_time.txt"
-	echo ":-use_module(library(trill))." > $TYPE"tempbr.pl"
-	echo ":-trillp." >> $TYPE"tempbr.pl"
-	cat  "$f".pl >> $TYPE"tempbr.pl"
 
-	while read p
-	do
-		echo $p
-	
-		echo "$p" | swipl $TYPE"tempbr.pl" 1>> res/$TYPE/$f"_time.txt" 2> /dev/null
-	
-	done < $1/$f.pl.q
-
-	echo "tornado"
-	echo "tornado" >> res/$TYPE/$f"_time.txt"
-	echo ":-use_module(library(trill))." > $TYPE"tempbr.pl"
-	echo ":-tornado." >> $TYPE"tempbr.pl"
-	cat  "$f".pl >> $TYPE"tempbr.pl"
-
-	while read p
-	do
-		echo $p
-
-		echo "$p" | swipl $TYPE"tempbr.pl" 1>> res/$TYPE/$f"_time.txt" 2> /dev/null
-	
-	done < $1/$f.pl.q
 
 	rm $TYPE"tempbr.pl"
 	
